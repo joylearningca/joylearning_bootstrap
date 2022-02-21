@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  background-color: #d0ecf2;
+  color: #030e12;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  /* flex-grow: 1; */
+  background-color: #d9435f;
+  margin-top: 0;
+}
+
+.footer {
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+  /* margin-top: auto; */
+
+  background-color: #d9435f;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 960px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 2px;
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 40%;
+}
+
+.active {
+  border-bottom: #f2cb05 solid 1px;
+  transition: all 1s;
+}
+
+.alert:hover {
+  /* box-shadow: #f2cb05 0px 0px 5px; */
+  background-color: #d9435f;
+  color: white;
+}
+
+/* Color Theme Swatches in Hex */
+/* .Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-1-hex { color: #D9435F; }
+.Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-2-hex { color: #D0ECF2; }
+.Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-3-hex { color: #F2CB05; }
+.Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-4-hex { color: #D9B95B; }
+.Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-5-hex { color: #BF7960; } */
