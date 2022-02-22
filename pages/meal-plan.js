@@ -26,40 +26,30 @@ export default function MealPlanPage() {
       <Row>
         <Col>
           <p>Example: Week 1</p>
-          <table className='table table-striped text-center bg-light w-auto rounded-3'>
+          <table className='table table-striped text-center bg-light w-auto rounded-3 overflow-hiden'>
             <tbody>
               <tr>
                 <td> </td>
                 <td>
                   <p>
-                    <strong>Monday</strong>
+                    <strong>Morning snack</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <strong>Tuesday</strong>
+                    <strong>Lunch</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <strong>Wednesday</strong>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <strong>Thursday</strong>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <strong>Friday</strong>
+                    <strong>Afternoon snack</strong>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Morning snack</strong>
+                    <strong>Monday</strong>
                   </p>
                 </td>
                 <td>
@@ -69,34 +59,24 @@ export default function MealPlanPage() {
                 </td>
                 <td>
                   <p>
-                    <span>red bean bun</span>
+                    <span>meat &amp; egg custard (肉沫蛋羹), veggie, rice</span>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>cereals, yogurt</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>scallion rolls</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>boiled egg</span>
+                    <span>rice cake</span>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Lunch</strong>
+                    <strong>Tuesday</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>meat &amp; egg custard (肉沫蛋羹), veggie, rice</span>
+                    <span>red bean bun</span>
                   </p>
                 </td>
                 <td>
@@ -106,29 +86,14 @@ export default function MealPlanPage() {
                 </td>
                 <td>
                   <p>
-                    <span>tomato &amp; beef pasta (西红柿牛肉意面)</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>steamed basa (清蒸龙利鱼柳), rice, veggie</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>stewed pork &amp; cabbage (白菜炖肉), rice</span>
+                    <span>cereals, yogurt</span>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Afternoon snack</strong>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>rice cake</span>
+                    <strong>Wednesday</strong>
                   </p>
                 </td>
                 <td>
@@ -138,12 +103,51 @@ export default function MealPlanPage() {
                 </td>
                 <td>
                   <p>
+                    <span>tomato &amp; beef pasta (西红柿牛肉意面)</span>
+                  </p>
+                </td>
+                <td>
+                  <p>
                     <span>cupcake</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>Thursday</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>scallion rolls</span>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>steamed basa (清蒸龙利鱼柳), rice, veggie</span>
                   </p>
                 </td>
                 <td>
                   <p>
                     <span>croissants, yogurt</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>Friday</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>boiled egg</span>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>stewed pork &amp; cabbage (白菜炖肉), rice</span>
                   </p>
                 </td>
                 <td>
@@ -160,40 +164,30 @@ export default function MealPlanPage() {
       <Row>
         <Col>
           <p>Example: Week 2</p>
-          <table className='table table-striped text-center bg-light w-auto rounded-3'>
+          <table className='table table-striped text-center bg-light w-auto rounded-3 overflow-hidden'>
             <tbody>
               <tr>
                 <td> </td>
                 <td>
                   <p>
-                    <strong>Monday</strong>
+                    <strong>Morning snack</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <strong>Tuesday</strong>
+                    <strong>Lunch</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <strong>Wednesday</strong>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <strong>Thursday</strong>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <strong>Friday</strong>
+                    <strong>Afternoon snack</strong>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Morning snack</strong>
+                    <strong>Monday</strong>
                   </p>
                 </td>
                 <td>
@@ -203,39 +197,46 @@ export default function MealPlanPage() {
                 </td>
                 <td>
                   <p>
-                    <span>veggie &amp; meat bun</span>
+                    <span>fried rice with shrimp &amp; egg (虾仁蛋炒饭)</span>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>cheerios</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>pumpkin pie</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>blueberry cupcake</span>
+                    <span>carrot cupcake</span>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Lunch</strong>
+                    <strong>Tuesday</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>fried rice with shrimp &amp; egg (虾仁蛋炒饭)</span>
+                    <span>veggie &amp; meat bun</span>
                   </p>
                 </td>
                 <td>
                   <p>
                     <span>pork &amp; veggie dumpling</span>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>veggie cracker, yogurt</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>Wednesday</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>cheerios</span>
                   </p>
                 </td>
                 <td>
@@ -248,39 +249,46 @@ export default function MealPlanPage() {
                 </td>
                 <td>
                   <p>
-                    <span>macaroni pizza, veggie salad</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>tofu shrimp soup(虾仁豆腐羹), rice</span>
+                    <span>bagel</span>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td>
                   <p>
-                    <strong>Afternoon snack</strong>
+                    <strong>Thursday</strong>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>carrot cupcake</span>
+                    <span>pumpkin pie</span>
                   </p>
                 </td>
                 <td>
                   <p>
-                    <span>veggie cracker, yogurt</span>
-                  </p>
-                </td>
-                <td>
-                  <p>
-                    <span>bagel</span>
+                    <span>macaroni pizza, veggie salad</span>
                   </p>
                 </td>
                 <td>
                   <p>
                     <span>pita bread, yogurt</span>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <strong>Friday</strong>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>blueberry cupcake</span>
+                  </p>
+                </td>
+                <td>
+                  <p>
+                    <span>tofu shrimp soup(虾仁豆腐羹), rice</span>
                   </p>
                 </td>
                 <td>
