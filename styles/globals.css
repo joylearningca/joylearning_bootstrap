@@ -74,6 +74,10 @@ main {
   color: white;
 }
 
+.table {
+  max-width: 700px;
+}
+
 /* Color Theme Swatches in Hex */
 /* .Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-1-hex { color: #D9435F; }
 .Group-of-happy-children-of-boys-and-girls-run-in-day-care.-Kids-playing-in-kindergarten-2-hex { color: #D0ECF2; }

@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
         <meta name='theme-color' content='#ffffff' />
       </Head>
       <Header />
-      <main>
+      <main className='d-flex align-items-center'>
         <Component {...pageProps} />
       </main>
       <Footer />
