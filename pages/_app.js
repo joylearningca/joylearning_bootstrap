@@ -1,15 +1,15 @@
 import Head from "next/head"
 import { useEffect } from "react"
-import {
-  Container,
-  Offcanvas,
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap"
+// import {
+//   Container,
+//   Offcanvas,
+//   Navbar,
+//   Nav,
+//   NavDropdown,
+//   Form,
+//   FormControl,
+//   Button,
+// } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css" // Add this line
 import "../styles/globals.css"
 import Header from "../components/Header"

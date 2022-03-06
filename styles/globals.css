@@ -58,9 +58,9 @@ main {
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.507);
   border-radius: 2px;
-  transform: translateY(-50%);
+  /* transform: translateY(50%); */
   bottom: initial;
-  top: 40%;
+  bottom: 10%;
 }
 
 .active {

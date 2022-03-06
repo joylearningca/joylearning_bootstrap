@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function curriculum() {
   return (
@@ -32,14 +32,14 @@ export default function curriculum() {
 
       <Row>
         <Col>
-          <div className='float-start me-4 col-12 col-md-6 mb-3'>
-            <Image
+          <div className='float-start me-4 col-12 col-md-6 mb-2'>
+            <img
               className='rounded-3'
-              src='/images/chinese.jpg'
+              src='/images/chinese.png'
               alt='Second slide'
               layout='responsive'
-              width='350'
-              height='240'
+              width='100%'
+              // height='240'
             />
           </div>
           <h4 className='mb-3 fst-italic'>Why Chinese?</h4>
@@ -47,7 +47,7 @@ export default function curriculum() {
             Chinese is a rewarding language to learn. As we known, China is one
             of the world’s oldest and richest continuous cultures, over 5000
             years old. Now China is the second largest economy in the world and
-            is one of the largest trading partners of Canada. (图)
+            is one of the largest trading partners of Canada.
           </p>
 
           <p>
@@ -59,18 +59,18 @@ export default function curriculum() {
             shape, and meaning, and stimulate the left and right hemispheres of
             the brain at the same time when children learning. As a result,
             young children gain active development of cognitive, logical and
-            creative thinking skills.（图）
+            creative thinking skills.
           </p>
         </Col>
       </Row>
-      <div className='m-auto col-12 col-md-3 mb-3'>
-        <Image
+      <div className='m-auto col-12 col-md-6 mb-3'>
+        <img
           className='rounded-3 text-center'
-          src='/images/chinese_kid.jpg'
+          src='/images/kids.jpg'
           alt='Second slide'
           layout='responsive'
-          width='130'
-          height='180'
+          width='100%'
+          // height='180'
         />
       </div>
       <Row>
