@@ -63,6 +63,10 @@ main {
   bottom: 0;
 }
 
+.carousel-indicators {
+  margin-bottom: 0.2rem;
+}
+
 .active {
   border-bottom: #f2cb05 solid 1px;
   transition: all 1s;
