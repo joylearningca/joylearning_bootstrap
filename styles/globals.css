@@ -60,7 +60,7 @@ main {
   border-radius: 2px;
   /* transform: translateY(50%); */
   bottom: initial;
-  bottom: 10%;
+  bottom: 0;
 }
 
 .active {
